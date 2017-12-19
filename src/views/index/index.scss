@@ -1,0 +1,53 @@
+.section {
+  position: relative;
+  .my-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-position: center 80%;
+    background-size: cover;
+    z-index: 9;
+  }
+  .sectionCon {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.section2 {
+  .my-bg {
+    background-color: #fff;
+  }
+  .titleBox {
+    padding: 80px 0;
+    margin-top: -160px;
+    text-align: center;
+    h3.title {
+      color: #848282;
+      font-weight: normal;
+      font-family: "HELVETICANEUELTPRO-THEX", "微软雅黑";
+      font-size: 26px;
+    }
+    p {
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+  }
+}
+
+.section2.active {
+
+}
+
+.section3 {
+  .my-bg {
+    background-image: url("../../assets/images/parallax-3.jpg");
+  }
+}
+
+.section4 {
+  .my-bg {
+    background-image: url("../../assets/images/parallax-4.jpg");
+  }
+}

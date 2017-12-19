@@ -1,0 +1,6 @@
+/*
+* mixin集中存储文件
+*/
+@function px2rem($px) {
+  @return $px / 75 * 1rem;
+}
